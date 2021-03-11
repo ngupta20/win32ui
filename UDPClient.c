@@ -1,10 +1,9 @@
 #include <winsock2.h>
 #include <stdio.h>
-
 #pragma comment (lib, "Ws2_32.lib")
 
+#define port 8080
 #define max_receive 1024
-#define port 8888
 #define ip_type AF_INET
 #define socket_type SOCK_DGRAM
 #define protocol IPPROTO_UDP
